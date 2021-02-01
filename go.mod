@@ -1,4 +1,4 @@
-module github/samuelagm/assist-model
+module github.com/samuelagm/assist-model
 
 go 1.15
 
