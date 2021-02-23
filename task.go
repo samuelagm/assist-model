@@ -15,6 +15,7 @@ type Task struct {
 	Duration     int
 	Delta        int
 	Milestones   []Milestone
+	Dependents   []Task
 	CreatedAt    time.Time
 	UpdatedAt    time.Time
 }
