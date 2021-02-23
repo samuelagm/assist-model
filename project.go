@@ -7,9 +7,9 @@ import (
 // Project ...
 type Project struct {
 	ID           string
-	Organisation Organisation
+	Organisation string
 	Tag          string
-	Owners       []User
+	Owners       []string
 	Name         string
 	Tasks        []Task
 	CreatedAt    time.Time

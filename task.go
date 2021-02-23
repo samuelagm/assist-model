@@ -7,11 +7,10 @@ import (
 // Task ...
 type Task struct {
 	ID           string
-	Organisation Organisation
+	Organisation string
 	Name         string
-	Owner        User
-	Status       Status
-	Dependencies []Dependency
+	Owner        string
+	Status       int
 	Deliverables []string
 	Duration     int
 	Delta        int
